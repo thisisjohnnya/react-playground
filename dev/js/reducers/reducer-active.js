@@ -3,9 +3,6 @@ export default function (state=null, action) {
         case "FOOD_SELECTED":
             return action.payload;
             break;
-        case "MOVIE_SELECTED":
-            return action.payload;
-            break;
     }
     return state;
 }
